@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FirstAppByte.MainPage">
 
-    
-
+    <StackLayout Padding="5,5,5,5">
+        <Label Text="Подписка" TextColor="Red" FontSize="25" FontAttributes="Bold"/>
+        <Entry IsPassword="True" Placeholder="Пароль"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Подписаться" FontSize="25"/>
+            <CheckBox x:Name="checkBox" />
+        </StackLayout>
+    </StackLayout>
 </ContentPage>
