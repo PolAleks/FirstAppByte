@@ -21,7 +21,7 @@ namespace FirstAppByte
 
             Label label = new Label();
 
-            label.Text = "Урок 4";
+            label.Text = "Подписка";
             label.TextColor = Color.Red;
             label.FontSize = 20;
             label.FontAttributes = FontAttributes.Bold;
